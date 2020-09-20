@@ -1,0 +1,39 @@
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Spartan', sans-serif;
+}
+
+/* header */
+.header {
+    text-align: left;
+    display: block;
+    padding: 5rem 0 0 7rem;
+    width: 40%;
+}
+
+.title {
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+    width: 100%;
+}
+
+.paragraph {
+    color: hsl(303, 10%, 53%);
+    width: 90%;
+    line-height: 1.8;
+}
+
+.svg-top {
+    position: absolute;
+}
+
+/* attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
