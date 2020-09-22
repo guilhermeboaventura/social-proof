@@ -2,6 +2,7 @@
 body {
     background-color: hsl(0, 0%, 100%);
     font-family: 'Spartan', sans-serif;
+    font-size: 15px;
 }
 
 /* header */
@@ -22,6 +23,19 @@ body {
     color: hsl(303, 10%, 53%);
     width: 90%;
     line-height: 1.8;
+}
+
+.rating-positioning {
+    width: 100%;
+    
+}
+
+.rating {
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem 0 1rem 0;
+    width: 20%;
+    background-image: url(images/icon-star.svg);
+    background-repeat: repeat-x;
 }
 
 .svg-top {
