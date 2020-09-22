@@ -17,6 +17,7 @@ body {
     color: hsl(300, 43%, 22%);
     font-size: 3rem;
     width: 100%;
+    font-weight: 700;
 }
 
 .paragraph {
@@ -26,16 +27,39 @@ body {
 }
 
 .rating-positioning {
+    position: relative;
     width: 100%;
-    
+    text-align: left;
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan';
+    font-weight: 700;
 }
 
-.rating {
+.rating-1 {
     background-color: hsl(300, 24%, 96%);
-    padding: 1rem 0 1rem 0;
     width: 20%;
-    background-image: url(images/icon-star.svg);
-    background-repeat: repeat-x;
+    position: absolute;
+    top: -17rem;
+    right: 20rem;
+    padding: 0.7rem;
+}
+
+.rating-2 {
+    background-color: hsl(300, 24%, 96%);
+    width: 20%;
+    position: absolute;
+    top: -12rem;
+    right: 17rem;
+    padding: 0.7rem;
+}
+
+.rating-3 {
+    background-color: hsl(300, 24%, 96%);
+    width: 20%;
+    position: absolute;
+    top: -7rem;
+    right: 14rem;
+    padding: 0.7rem;
 }
 
 .svg-top {
